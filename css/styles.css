@@ -129,7 +129,7 @@ body {
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: var(--white);
 }
 
 .team-title {
@@ -143,7 +143,7 @@ body {
 }
 
 .team-item {
-  background-color: #FFFFFF ;
+  background-color: var(--white);
 }
 
 .team-name {
@@ -171,4 +171,41 @@ font-weight: 400;
 list-style: 1.5;
 letter-spacing: 0.02em;
 color: var(--white);
+}
+
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #F4F4FD;
+  color: #4D5AE5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+  border: none;
+}
+
+.portfolio-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--font-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font-color);
+  line-height: 1.5;
 }

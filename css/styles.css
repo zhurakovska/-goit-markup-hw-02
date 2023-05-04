@@ -61,7 +61,12 @@ body {
   font-style: normal;
 }
 
+.contact-list {
+  font-style: normal;
+}
+
 .contack-link {
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -132,7 +137,7 @@ body {
 }
 
 .team {
-  background-color: var(--white);
+  background-color: #F4F4FD;
 }
 
 .team-title {

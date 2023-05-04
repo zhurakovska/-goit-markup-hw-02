@@ -41,7 +41,7 @@ body {
   color:#2E2F42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -50,15 +50,12 @@ body {
   color: #404bbf;
 }
 
-.contsct {
-  font-style: normal;
-}
-
 .contack-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
   color:#434455;
 }
 
@@ -67,5 +64,33 @@ body {
   color: #404bbf;
 }
 
+.hero {
+  background-color: #2E2F42;
+}
+
+.hero-title {
+  font-size: 56px;
+  text-align: center;
+  color:#ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+}
+
+.hero-btn {
+  background-color: #4D5AE5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
+}
 
 

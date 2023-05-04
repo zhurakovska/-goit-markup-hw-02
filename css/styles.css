@@ -1,6 +1,7 @@
 :root {
   --primery-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --font-color: #2E2F42;
 }
 
 .list {
@@ -20,3 +21,48 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  
+}
+
+.logo-black {
+  color:#2E2F42;
+}
+
+.menu-link {
+  color:#2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+
+.contack-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.15;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color:#434455;
+}
+
+.contack-link:hover,
+.contack-link:focus, {
+  color: #404bbf;
+}
+
+

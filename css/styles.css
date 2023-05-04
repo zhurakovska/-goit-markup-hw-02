@@ -14,3 +14,9 @@
 .button {
   border: none;
 }
+
+body {
+  font-family: var(--primery-font);
+  color: #434455;
+  background-color: #ffffff;
+}

@@ -36,8 +36,12 @@ body {
   
 }
 
-.logo-black {
+.logo-header {
   color:var(--font-color);
+}
+
+.logo-footer {
+  color: #F4F4FD;
 }
 
 .menu-link {
@@ -50,7 +54,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--violet);
+  color: #4d5ae5;
 }
 
 .contack-link {
@@ -64,7 +68,7 @@ body {
 
 .contack-link:hover,
 .contack-link:focus {
-  color: var(--violet);
+  color: #4d5ae5;
 }
 
 .hero {
@@ -116,10 +120,11 @@ body {
 .about-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--font-color);
+  text-transform: capitalize;
 }
 
 .team {
@@ -129,13 +134,15 @@ body {
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--font-color);
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {
-  background-color: var(--white);
+  background-color: #FFFFFF ;
 }
 
 .team-name {

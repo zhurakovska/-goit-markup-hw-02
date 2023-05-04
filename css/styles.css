@@ -57,8 +57,11 @@ body {
   color: #404bbf;
 }
 
-.contack-link {
+.contact {
   font-style: normal;
+}
+
+.contack-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
